@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/hexus_bg.qm</file>
+        <file alias="de">locale/hexus_de.qm</file>
+        <file alias="en">locale/hexus_en.qm</file>
+        <file alias="es">locale/hexus_es.qm</file>
+        <file alias="fi">locale/hexus_fi.qm</file>
+        <file alias="fr">locale/hexus_fr.qm</file>
+        <file alias="it">locale/hexus_it.qm</file>
+        <file alias="ja">locale/hexus_ja.qm</file>
+        <file alias="nl">locale/hexus_nl.qm</file>
+        <file alias="pl">locale/hexus_pl.qm</file>
+        <file alias="pt">locale/hexus_pt.qm</file>
+        <file alias="ru">locale/hexus_ru.qm</file>
+        <file alias="sk">locale/hexus_sk.qm</file>
+        <file alias="sv">locale/hexus_sv.qm</file>
+        <file alias="vi">locale/hexus_vi.qm</file>
+        <file alias="zh_CN">locale/hexus_zh_CN.qm</file>
+        <file alias="zh_TW">locale/hexus_zh_TW.qm</file>
+    </qresource>
+</RCC>

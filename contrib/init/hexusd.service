@@ -1,0 +1,22 @@
+[Unit]
+Description=Hexus's distributed currency daemon
+After=network.target
+
+[Service]
+User=hexuscore
+Group=hexuscore
+
+Type=forking
+PIDFile=/var/lib/hexusd/hexusd.pid
+ExecStart=/usr/bin/hexusd -daemon -pid=/var/lib/hexusd/hexusd.pid \
+-conf=/etc/hexuscore/hexus.conf -datadir=/var/lib/hexusd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

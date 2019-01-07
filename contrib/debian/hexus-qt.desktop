@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Hexus Core
+Comment=Hexus P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Hexus peer-to-peer Netzwerk
+Comment[fr]=Hexus, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Hexus, eşten eşe kriptografik sanal para birimi
+Exec=hexus-qt %u
+Terminal=false
+Type=Application
+Icon=hexus128
+MimeType=x-scheme-handler/hexus;
+Categories=Office;Finance;

@@ -1,0 +1,6 @@
+usr/local/bin/hexus-qt usr/bin
+share/pixmaps/hexus32.xpm usr/share/pixmaps
+share/pixmaps/hexus16.xpm usr/share/pixmaps
+share/pixmaps/hexus128.png usr/share/pixmaps
+debian/hexus-qt.desktop usr/share/applications
+debian/hexus-qt.protocol usr/share/kde4/services/
